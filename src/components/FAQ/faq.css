@@ -1,0 +1,11 @@
+.support-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem auto;
+}
+.support-title {
+    width: 40%;
+}
+.support-main {
+    width: 55%;
+}

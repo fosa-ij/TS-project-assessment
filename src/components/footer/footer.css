@@ -1,0 +1,19 @@
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons {
+    display: flex;
+    gap: 0 20px;
+}
+.footer-1 .header {
+    width: 30%;
+}
+.footer-1 li {
+    list-style: none;
+}

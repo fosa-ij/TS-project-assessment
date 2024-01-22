@@ -1,0 +1,15 @@
+.sp-image-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.sp-image-section img {
+    height: 30px;
+}
+.sp-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+}

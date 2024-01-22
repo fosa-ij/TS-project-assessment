@@ -1,0 +1,32 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6rem;
+
+}
+.hero-text-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px 0;
+}
+.hero-image-section {
+    background-color: #EFF8FF;
+    border-radius: 12px;
+}
+.hero-big-avatar {
+    display: flex;
+    margin: 1.8rem;
+}
+.ba-container {
+    background-color: aqua;
+    margin: auto .5rem;
+    border-radius: 12px;
+}
+.hero-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem auto;
+    width: 100%;
+}

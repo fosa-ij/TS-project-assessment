@@ -1,0 +1,20 @@
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+.info-main {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+.info-main .text {
+  width: 45%;
+}
+.info-main .image {
+  width: 45%;
+}
+.info-up-down {
+  display: flex;
+}
