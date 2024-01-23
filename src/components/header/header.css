@@ -3,30 +3,114 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 6rem;
-
 }
 .hero-text-section {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    gap: 10px 0;
+    width: 55%;
+    gap: 25px 0;
 }
 .hero-image-section {
     background-color: #EFF8FF;
+    border: 2px solid #C1E3FF;
     border-radius: 12px;
+             box-shadow:  32px 32px 64px #E3E4E7,
+             -32px -32px 64px #E3E4E7;
 }
 .hero-big-avatar {
     display: flex;
-    margin: 1.8rem;
+    margin: 1.6rem;
 }
 .ba-container {
     background-color: aqua;
     margin: auto .5rem;
     border-radius: 12px;
 }
+.ba-container img {
+    height: 125px;
+    width: 125px;
+}
+.ba-container.one {
+    background-color: #FF9C66;
+}
+.ba-container.two {
+    background-color: #D6BBFB;
+}
+.ba-container.three {
+    background-color: #ACDC79;
+}
+.ba-container.four {
+    background-color: #B3B8DB;
+}
+.ba-container.five {
+    background-color: #FEC84B;
+}
+.ba-container.six {
+    background-color: #FEA3B4;
+}
 .hero-icons {
     display: flex;
     justify-content: space-around;
     margin: 2rem auto;
     width: 100%;
+}
+.hero-ratings {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* gap: 0 20px; */
+}
+.ratings {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 5%;
+}
+.ratings span {
+    font-size: .8rem;
+}
+.five-star {
+    display: flex;
+    gap: 0 5px;
+    align-items: center;
+}
+.small-avatar-two {
+    position: relative;
+    right: 5%;
+}
+.small-avatar-three {
+    position: relative;
+    right: 10%;
+}
+.small-avatar-four {
+    position: relative;
+    right: 15%;
+}
+.small-avatar-five {
+    position: relative;
+    right: 20%;
+}
+.hero-icons div {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 0 15px;
+}
+.hero-icon {
+    font-size: 1rem;
+    border: 1px solid #C1E3FF;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: .6rem;
+    color: #175CD3;
+}
+.hero-btn-section span {
+    font-size: .9rem;
+    font-weight: 600;
+}
+.hero-text h1 {
+    font-size: 3.6rem;
+}
+.hero-text p {
+    width: 60%;
 }

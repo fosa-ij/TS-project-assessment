@@ -1,0 +1,46 @@
+.review-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem auto;
+}
+.review-content {
+    width: 45%;
+}
+.review-image {
+    width: 50%;
+}
+.review-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+.review-details img {
+    object-fit: scale-down;
+}
+.review-details p {
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+.review-details .review-ratings {
+    display: flex;
+    gap: 0 10px;
+}
+.review-user {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 0 100px;
+    margin-top: 2rem;
+}
+.review-user-profile {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 10px;
+    align-items: center;
+}
+.user-details h4, .user-details p {
+    margin: 0;
+    font-size: medium;
+}

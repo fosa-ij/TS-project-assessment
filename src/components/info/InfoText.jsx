@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const InfoText = ({header, p, icon}) => {
   return (
     <div>
-        <FontAwesomeIcon icon={icon} />
+        <FontAwesomeIcon className='info-icon' icon={icon} />
         <h3>{header}</h3>
         <p>{p}</p>
     </div>

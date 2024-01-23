@@ -1,0 +1,36 @@
+.sub-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 6rem auto;
+}
+.sub-details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+    align-items: start;
+    margin-top: 3rem;
+}
+.sub-list ul {
+    list-style: none;
+    padding: 0;
+}
+.sub-header h2 {
+    font-size: 2.5rem;
+}
+.sub-image {
+    height: fit-content;
+    width: 750px;
+    height: 500px;
+    position: relative;
+    right: -13.8%;
+}
+.sub-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-left: 6px solid black;
+    border-top: 6px solid black;
+}

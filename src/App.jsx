@@ -7,15 +7,18 @@ import SocialProof from "./components/social-proof/sp";
 import Info from "./components/info/info";
 import Footer from "./components/footer/Footer";
 import Faq from "./components/FAQ/Faq";
+import Subscription from "./components/subscription/Index";
+import Reviews from "./components/reviews/Reviews";
 
 function App() {
   const style = {
     backgroundImage: `url(${BgImg})`,
-    height: "85vh",
+    height: "78vh",
     position: "absolute",
     top: "0%",
     left: "5%",
     right: "5%",
+    margin: "auto 6rem"
   };
 
   return (
@@ -25,7 +28,9 @@ function App() {
           <Header />
           <SocialProof />
           <Info />
+          <Reviews />
           <Faq />
+          <Subscription />
           <Footer />
         </div>
       </Container>

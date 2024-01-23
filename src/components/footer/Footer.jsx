@@ -15,7 +15,7 @@ const Footer = () => {
                 <h3><img src={logo} alt="" /> ClearLink</h3>
                 <p>ClearLink is your gateway to effortless, high-quality video conferencing. Join us in shaping the future of communication!</p>
             </div>
-            <div>
+            <div className="footer-list">
                 <h4>Product</h4>
                 <ul>
                     <li>Overview</li>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <li>Pricing</li>
                 </ul>
             </div>
-            <div>
+            <div className="footer-list">
                 <h4>Company</h4>
                 <ul>
                     <li>About Us</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <li>Contact</li>
                 </ul>
             </div>
-            <div>
+            <div className="footer-list">
                 <h4>Resouces</h4>
                 <ul>
                     <li>Blog</li>
@@ -45,7 +45,7 @@ const Footer = () => {
                     <li>Support</li>
                 </ul>
             </div>
-            <div>
+            <div className="footer-list">
                 <h4>Legal</h4>
                 <ul>
                     <li>Terms</li>
@@ -55,7 +55,7 @@ const Footer = () => {
                     <li>Contact</li>
                 </ul>
             </div>
-            <div>
+            <div className='footer-socials'>
                 <h4>Get the app</h4>
                 <img src={appleStore} alt="" />
                 <img src={googlePlay} alt="" />
